@@ -6,6 +6,44 @@
     text-decoration: none;
     color: black;
 }
-.logoContainerHeader{
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+    
+}
+.header h2{
+    margin: 8px;
+}
+.buscador{
+    margin: 8px;
+}
+.titulo{
     text-align: center;
+    background-color: #abb8c3;
+    padding: 1rem;
+}
+.contenedor{
+    border: none;
+}
+.acceder{
+    padding: 1rem;
+}
+.checkBox{
+    display: flex;
+    padding: 1rem;
+}
+.inputUser{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.inputPassword{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.submit{
+    
+    padding: 10px 40px;
 }
